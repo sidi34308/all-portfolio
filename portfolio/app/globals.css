@@ -4,12 +4,11 @@
 
 /* styles/globals.css */
 body {
-  cursor: url('/cursor.svg'), auto;
+  cursor: url("/cursor.svg"), auto;
 }
 .hoveredd {
-  cursor: url('/cursorbig.svg'), auto;
+  cursor: url("/cursorbig.svg"), auto;
 }
-
 
 /* styles/Home.module.css */
 .container {
@@ -57,6 +56,6 @@ body {
   }
 }
 ::selection {
-  background-color: #36CAB9;
+  background-color: #36cab9;
   color: #ffffff;
 }
