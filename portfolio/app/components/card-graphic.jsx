@@ -1,7 +1,7 @@
 // components/Card.js
-"use client"
-import React, { useState } from 'react';
-import ImageModal from './ImageModal';
+"use client";
+import React, { useState } from "react";
+import ImageModal from "./ImageModal";
 
 const Card = ({ title, year, description, imageSrc }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -20,7 +20,11 @@ const Card = ({ title, year, description, imageSrc }) => {
         <img src={imageSrc} alt={title} className="cursor-pointer" />
       </div>
       {isModalOpen && (
-        <ImageModal imageSrc={imageSrc} alt={title} onClose={handleCloseModal} />
+        <ImageModal
+          imageSrc={imageSrc}
+          alt={title}
+          onClose={handleCloseModal}
+        />
       )}
     </>
   );

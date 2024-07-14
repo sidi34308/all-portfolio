@@ -2,7 +2,7 @@
 "use client";
 import React, { useState } from "react";
 import ImageModal from "./ImageModal";
-
+import Image from "next/image";
 const Card = ({ title, year, description, imageSrc }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -17,7 +17,7 @@ const Card = ({ title, year, description, imageSrc }) => {
   return (
     <>
       <div className="max-w-xl cursor-pointer" onClick={handleImageClick}>
-        <img
+        <Image
           src={imageSrc}
           alt={title}
           className="w-full h-auto cursor-pointer"
