@@ -1,6 +1,6 @@
 // pages/index.js
 import Navbar from '../components/navbar';
-import Card from '../components/Card';
+import Card from '../components/cards';
 
 export default function About() {
   return (
