@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import Navbar from "./components/navbar";
-import Card from "./components/Card";
+import Card from "./components/card";
 import { motion } from "framer-motion";
 import ContactMe from "./components/ContactMe";
 
